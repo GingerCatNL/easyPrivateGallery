@@ -17,10 +17,11 @@ Please visit: http://highslide.com/
 To create your simple gallery website please follow:
 1. Install Node.js
 2. Go into the project directory and run <code> npm install </code> - This will install required dependencies
-3. Put the images you want to have on your website in <code>img</code> folder
-4. Run command <code>node generateData.js</code> - this will:
+3. Run command <code>node generateData.js</code> - this will:
+    - create required directories: img and thumb
     - for each image file in the folder will generate thumbnail in <code>thumb</code> folder
     - create a json describing images
+4. Put the images you want to have on your website in <code>img</code> folder
 5. Run your website with index.html
 6. Modify whatever you want
 7. Enjoy and give a thumb up
