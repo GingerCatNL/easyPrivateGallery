@@ -33,7 +33,7 @@
         </div>
     </div>
     <div class="well" ng-if="ac.errorLoadingData">
-        <div class="text-center text-danger"> Error loading data <br/> <button type="button" class="btn btn-default" ng-click="loadDataAgain();"> Try Again </button> </div>
+        <div class="text-center text-danger"> Error loading data, reason: {{ac.errorMessage}} <br/> <button type="button" class="btn btn-default" ng-click="loadDataAgain();"> Try Again </button> </div>
     </div>
 </article>
 </div>

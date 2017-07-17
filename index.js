@@ -20,6 +20,9 @@ app.controller('appController', function appController($scope,$http) {
             } else {
                 controller.errorLoadingData = true;
             }
+        },function(error){
+            controller.errorLoadingData = true;
+            controller.errorMessage = error.statusText;
         });
     };
 
