@@ -28,8 +28,8 @@
 <article>
     <div class="well col-sm-12 text-center" ng-if="!ac.errorLoadingData">
         <div class="col-sm-4" ng-repeat="file in files">
-            <a href="thumb/{{file}}" class="highslide" onclick="return hs.expand(this)">
-                <img src="img/{{file}}" alt="Highslide JS" title="Click to Expand" width="100%"></a>
+            <a href="img/{{file}}" class="highslide" onclick="return hs.expand(this)">
+                <img src="thumb/{{file}}" alt="Highslide JS" title="Click to Expand" width="100%"></a>
         </div>
     </div>
     <div class="well" ng-if="ac.errorLoadingData">
