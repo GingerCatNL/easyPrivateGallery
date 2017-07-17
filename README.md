@@ -22,6 +22,7 @@ To create your simple gallery website please follow:
     - for each image file in the folder will generate thumbnail in <code>thumb</code> folder
     - create a json describing images
 4. Put the images you want to have on your website in <code>img</code> folder
-5. Run your website with index.html
-6. Modify whatever you want
-7. Enjoy and give a thumb up
+5. Re-run the command <code>node generateData.js</code> (if you didn't create folders img and thumb manually and put there images)
+6. Run your website with index.html
+7. Modify whatever you want
+8. Enjoy and give a thumb up
