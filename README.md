@@ -1,6 +1,9 @@
 # easyPrivateGallery
 This simple project will give you a quick start to create your own gallery website in few easy steps.
 
+Sample gallery created:
+- http://www.gingercat.nl/github/samples/easy_gallery/index.html
+
 Requirements:
 - Node.js
 Please install it from: https://nodejs.org/en/download/
