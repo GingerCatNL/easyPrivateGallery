@@ -1,0 +1,25 @@
+{
+  "name": "easy-dynamic-gallery",
+  "version": "1.0.0",
+  "description": "Simple gallery web page generator. This will allow you to create fully responsive your own gallery website in few steps. ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "gallery",
+    "dynamic",
+    "gallery",
+    "easy",
+    "gallery",
+    "node",
+    "js",
+    "angular"
+  ],
+  "author": "GingerCat",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.2.28"
+  }
+}
