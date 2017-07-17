@@ -25,4 +25,5 @@ To create your simple gallery website please follow:
 5. Re-run the command <code>node generateData.js</code> (if you didn't create folders img and thumb manually and put there images)
 6. Run your website with index.html
 7. Modify whatever you want
-8. Enjoy and give a thumb up
+8. Put all your files in your server (or run local server and run it, or use firefox (he allows the cross origin)
+9. Enjoy
